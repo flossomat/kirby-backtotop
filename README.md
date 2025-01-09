@@ -4,7 +4,20 @@ Ein konfigurierbarer "Zurück nach oben" Button für Kirby CMS.
 
 ## Installation
 
-Kopieren Sie den Ordner `kirby-backtotop` in Ihren `site/plugins` Ordner.
+### 1. Composer (empfohlen)
+```bash
+composer require flossomat/kirby-backtotop
+```
+
+### 2. Git Submodule
+
+```bash
+git submodule add https://github.com/flossomat/kirby-backtotop.git site/plugins/kirby-backtotop
+```
+
+### 3. Download
+
+Lade das Plugin herunter und kopiere es in den `site/plugins` Ordner.
 
 ## Verwendung
 
@@ -16,7 +29,7 @@ Fügen Sie das Snippet in Ihr Template oder in die `footer.php` ein:
 
 ## Konfiguration
 
-Sie können das Plugin in Ihrer `site/config/config.php` konfigurieren:
+Du kannst das Plugin in deiner `site/config/config.php` konfigurieren:
 
 ```php
 return [
@@ -87,9 +100,10 @@ return [
 ]
 ```
 
-## Abhängigkeiten
+## Anforderungen
 
-- Kirby CMS 3.x oder höher
+- Kirby 3.x oder höher
+- PHP 7.4+
 - jQuery (wird von Bootstrap bereitgestellt)
 
 ## Lizenz
