@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+/node_modules
+/vendor
+
+# Build files
+/dist 
