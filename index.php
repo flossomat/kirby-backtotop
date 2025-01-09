@@ -40,5 +40,11 @@ Kirby::plugin('dasformt/backtotop', [
                 );
             }
         ]
+    ],
+    'info' => [
+        'version' => '1.0.1',
+        'license' => 'MIT',
+        'author'  => 'dasformt',
+        'description' => 'Ein konfigurierbarer "Zurück nach oben" Button für Kirby CMS'
     ]
 ]);

@@ -2,7 +2,7 @@
     "name": "dasformt/kirby-backtotop",
     "description": "Ein konfigurierbarer 'Zurück nach oben' Button für Kirby CMS",
     "type": "kirby-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
